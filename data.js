@@ -1,6 +1,7 @@
 var products = [
     {
         id: 'product-1',
+        urlImages: ['./resources/images/polorojo.jpg'],
         type: 0,
         name: 'polo rojo',
         unitaryPrice: 15,
@@ -40,6 +41,7 @@ var products = [
     },
     {
         id: 'product-2',
+        urlImages: ['./resources/images/polonaranja.jpg'],
         type: 0,
         name: 'polo naranja',
         unitaryPrice: 10,
@@ -81,6 +83,7 @@ var products = [
     },
     {
         id: 'product-3',
+        urlImages: ['./resources/images/jean1.jpg'],
         type: 1,
         name: 'jean 1',
         unitaryPrice: 45,
@@ -122,6 +125,7 @@ var products = [
     },
     {
         id: 'product-4',
+        urlImages: ['./resources/images/jean2.jpg'],
         type: 1,
         name: 'jean 3',
         unitaryPrice: 55,
@@ -176,7 +180,7 @@ var bucket = [
     {
         id: 'bucket-1',
         idProduct: 'product-1',
-        quantity: 0,
+        quantity: 3,
         meassurement: {
             size: 'small'
         },
